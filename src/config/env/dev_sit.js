@@ -5,6 +5,6 @@ module.exports = _.merge(commonConfig,{
     // development related config
     logging : {
         level : 'debug',
-        print_to_console: false
+        print_to_console: true
     }
 })

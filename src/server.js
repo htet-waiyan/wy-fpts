@@ -5,6 +5,7 @@ const app = express();
 const server = http.createServer(app);
 
 require('./config/')(app);
+require('./route/route.index')(app);
 
 server.listen(process.env.PORT||3000, () => {
     logger.info(`Server started at ${process.env.PORT||3000}`);
