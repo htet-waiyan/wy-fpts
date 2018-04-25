@@ -6,5 +6,8 @@ module.exports = {
         root_path : '/app/fpts/logs',
         error_file : 'wy_error',
         info_file : 'wy_info'
+    },
+    jobstream: {
+        loadFromConfig : true
     }
 }

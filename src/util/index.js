@@ -1,0 +1,1 @@
+exports.capitalize = str => str.toUpperCase;
